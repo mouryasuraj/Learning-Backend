@@ -12,7 +12,7 @@
 9. These ports are also known as LAN ports
 
 // Access Point 
-1. If you want to connect devices in the same environment then we have to use access point devices
+1. If you want to connect devices wireless in the same environment then we have to use access point devices
  
 //And this is known as LAN or local area network
 
