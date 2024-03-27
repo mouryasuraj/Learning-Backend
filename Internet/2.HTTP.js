@@ -34,4 +34,8 @@
         2. For example, this Wikipedia URL points to a page about miniature pigs: https://en.wikipedia.org/wiki/Miniature_pig
         3. The domain portion of the URL is en.wikipedia.org.
         4. en.wikipedia.org converts to a specific IP address, and that IP address tells your computer exactly where to communicate with that Wikipedia page.
+    b. DNS is used to map human readable domain name and convert it into IP address
+    c. DNS is responsible for looking up the IP address that's associated with domain name
+    d. DNS, or the "Domain Name System", is the phonebook of the internet. Humans connect to websites through domain names, like Boot.dev. DNS "resolves" these domain names to find the associated IP addresses so that web clients can load the resources for the specific address.
 */
+
