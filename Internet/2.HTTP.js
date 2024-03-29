@@ -37,5 +37,61 @@
     b. DNS is used to map human readable domain name and convert it into IP address
     c. DNS is responsible for looking up the IP address that's associated with domain name
     d. DNS, or the "Domain Name System", is the phonebook of the internet. Humans connect to websites through domain names, like Boot.dev. DNS "resolves" these domain names to find the associated IP addresses so that web clients can load the resources for the specific address.
+
+
+// URIs(Uniform Resource Identifiers)
+1. Two main types of URIs
+    a. URLs(Uniform Resource Locator)
+    b. URNs(Uniform Resource Name)
+2. All URLs are URIs but not all URIs are URLs
+    Example:
+        function printURLParts(urlString) {
+            const urlObj = new URL(urlString)
+            console.log('Protocol: ' + urlObj.protocol)
+            console.log('Username: ' + urlObj.username)
+            console.log('Password: ' + urlObj.password)
+            console.log('Hostname: ' + urlObj.hostname)
+            console.log('Port: ' + urlObj.port)
+            console.log('Pathname: ' + urlObj.pathname)
+            console.log('Search: ' + urlObj.search)
+            console.log('Hash: ' + urlObj.hash)
+        }
+
+        const fantasyQuestURL = 'http://dragonslayer:pwn3d@fantasyquest.com:8080/maps?sort=rank#id'
+        printURLParts(fantasyQuestURL)
+3. There are 8 main parts to a URL, though not all the sections are always present. Each piece plays a specific role in
+   helping clients locate the specified resource.
+
+    The 8 sections are:
+
+    sections of a url
+
+    The protocol is required
+    Usernames and passwords are optional
+    A domain is required
+    The default port for a given protocol is used if one is not provided
+    The default (/) path is used if one isn't provided
+    A query is optional
+    A fragment is optional
+4. Fot http the default port is 80
+4. Fot https the default port is 443
+
+//Protocol
+1.It is the first protocol in the URL
+2. Its purpose is to define the rules by which the data being communicated is displayed, encoded or formatted
+3. There are many protocols of URLs
+4. Example:
+    http://example.com
+    mailto:noreply@fantasyquest.app
+
+
+
+//URL Port
+1. Port in a URL is a virtual point where network connections are made
+2. Port managed by a computer's operating system and are numbered from 0 to 65535
+
+//Headers
+1.An HTTP header allows clients and servers to pass additional information with each request or response. Headers are just case-insensitive key-value pairs that pass additional metadata about the request or response.
+2.The Headers API allows us to perform various actions on our request and response headers such as retrieving, setting, and removing them. We can access the headers object through the Request.headers and Response.headers properties.
 */
 
