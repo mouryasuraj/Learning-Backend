@@ -6,7 +6,7 @@
 4. In this todos models we can create character like user.models.js, todos.models.js, sub_todos.models.js
 5. In this file first import mongoose and then create schema example:
     import mongoose from 'mongoose';
-    const userSchema = new mongoose.Scheme({
+    const userSchema = new mongoose.Schema({
 
     })
 6. We have to export this scheme and it will create schema in mongodb
