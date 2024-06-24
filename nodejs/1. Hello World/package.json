@@ -1,0 +1,17 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "This is for practice",
+  "main": "1.Helloworld.js",
+  "type": "module",
+  "scripts": {
+    "start": "node 1.Helloworld.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "backend"
+  ],
+  "author": "Suraj Mourya",
+  "license": "ISC"
+}
