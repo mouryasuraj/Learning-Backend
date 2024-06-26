@@ -27,5 +27,5 @@ fs.appendFileSync('./contact.txt', "Hello\n")
 console.log(fs.statSync('./contact.txt'))   //This function is used to check the stats of a file like when it was created, modified and etc.
 
 
-fs.mkdirSync('my-docs/a/b',{recursive:true})   //By giving true to recursive porpertly we are able to create mutilple sub directories.
+fs.mkdirSync('my-docs/a/b',{recursive:true})   //By giving true to recursive propertly we are able to create mutilple sub directories.
 fs.mkdirSync('my-docs')   //If we don't put recursive to true then we are not able to create multiple sub directories
